@@ -1,6 +1,11 @@
 :root {
     --main-bg-color: rgb(70, 206, 195);
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 * {
     margin: 0;
@@ -54,6 +59,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     padding: 43px;
+    width: 90vw;
     justify-content: center;
 }
 
