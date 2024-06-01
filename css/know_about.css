@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
 :root {
     --main-bg-color: rgb(70, 206, 195);
 }
@@ -98,7 +100,11 @@ nav ul li a:hover {
     font-weight: 1000;
     font-size: 7vh;
     margin: 0;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: "Belanosima", sans-serif;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    
+    font-style: normal;
 }
 footer {
     background: var(--main-bg-color);
