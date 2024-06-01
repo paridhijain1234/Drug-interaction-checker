@@ -3,6 +3,12 @@
 :root {
     --main-bg-color: rgb(70, 206, 195);
 }
+body{
+    background-color:rgb(201, 246, 242);
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/18/01/26/background-2076334_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 main{
     display: flex;
     justify-content: center;
@@ -71,22 +77,34 @@ nav ul li a:hover {
     padding: 5px;
 }
 .container {
-    background-color: white;
-    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.669);
+    padding: 40px;
+    margin: 60px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
-    max-width: 500px;
-    
+    max-width: 585px;
+    height: 200px;
+
 }
 
 .container h2 {
     margin-bottom: 20px;
-    font-size: 2rem;
     font-family: "Belanosima", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    font-size: 35px;
+}
+#interaction_box label{
+    font-size:20px ;
+    display: block;
+}
+
+input{
+    padding: 6px;
+    margin: 9px;
+    width: 400px;
 }
 
 footer {
@@ -102,5 +120,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 50%;
 }

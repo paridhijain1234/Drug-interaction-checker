@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
 :root {
-    --main-bg-color: rgb(70, 206, 195);
+    --main-bg-color: rgb(44, 118, 236);
+}
+body{
+   background-color:rgb(201, 246, 242);
+  background-image: url(https://cdn.pixabay.com/photo/2017/02/18/01/26/background-2076334_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main{
     display: flex;
@@ -12,6 +19,7 @@ main{
     padding: 0;
     font-family: arial;
     border: border-box;
+    
 }
 
 header {
@@ -70,21 +78,35 @@ nav ul li a:hover {
 }
 
 .container {
-    background-color: white;
-    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    margin: 60px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
-    max-width: 500px;
-    
+    max-width: 585px;
+    height: 100px;
+
 }
 
 .container h2 {
     margin-bottom: 20px;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+}
+#interaction_box label{
+    font-size:20px ;
+    display: block;
 }
 
-
+input{
+    padding: 6px;
+    margin: 9px;
+    width: 400px;
+}
 
 footer {
     background: var(--main-bg-color);
@@ -99,10 +121,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 100%;
 }
 .features{
-    height: 120vh;
+    height:90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,8 +134,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 110vh;
-    width: 95vw;
+    height: 70vh;
+    width: 70vw;
 }
 .minor-flex-container {
     display: flex;
@@ -122,11 +144,17 @@ footer {
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    height: 40vh;
-    width: 27vw;
+    height: 26vh;
+    width: 20vw;
+    background-color: rgba(240, 248, 248, 0.758);;
+}
+.minor-flex-container:hover{
+    background-color: rgb(196, 242, 243);
+    border-color:var(--main-bg-color) ;
+    box-shadow: 0 0 15px rgba(13, 13, 13, 0.1);
 }
 .container_img{
-    height:30vh;
+    height:22vh;
     display: flex;
     margin-bottom: 1vh;
     justify-content: center;
@@ -134,4 +162,20 @@ footer {
 }
 a{
     text-decoration: none;
+    color: black;
+}
+
+.resources{
+    padding: 14px;
+    margin: 67px 0 0 182px;
+    font-size: 31px;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.resources h3{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
