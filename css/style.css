@@ -192,11 +192,12 @@ footer {
     padding: 10px;
     border: 1px solid #ccc;
     height: 40vh;
-    width: 30vw;
+    width: 27vw;
 }
 .container_img{
-    height:25vh;
+    height:30vh;
     display: flex;
+    margin-bottom: 1vh;
     justify-content: center;
     align-items: center;
 }
