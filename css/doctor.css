@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+:root {
+    --main-bg-color: rgb(70, 206, 195);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(bgforlogin.jpg) no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+
+}
+
+nav {
+    background: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 120px;
+    width: 100%;
+}
+
+nav ul {
+    height: 53px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(162, 223, 218);
+    text-align: end;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 43px;
+    width: 90vw;
+    justify-content: center;
+}
+
+.logo img {
+    align-self: center;
+    width: 200px;
+    padding: 5px;
+}
+footer {
+    background: var(--main-bg-color);
+    color: white;
+    height: 60px;
+    width: 100%;
+
+}
+
+.flex-all-center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    padding: 0px;
+    display: block;
+}
+.heading h2{
+    font-size: 2rem;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-left:-324px ;
+}
+
+#search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 16px;
+    width: 575px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color:var(--main-bg-color);
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+}
+
+#search-button:hover {
+    background-color: rgb(181, 248, 243);
+    
+}
+
+@media (max-width: 600px) {
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #search-input, #search-button {
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+
+    #search-button {
+        width: 100%;
+    }
+}
+
