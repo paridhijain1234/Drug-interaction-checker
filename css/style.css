@@ -24,7 +24,7 @@ main{
 
 header {
     height: 120px;
-    width: 100%;
+    width: 99vw;
 
 }
 
@@ -112,7 +112,7 @@ footer {
     background: var(--main-bg-color);
     color: white;
     height: 60px;
-    width: 100%;
+    width: 99vw;
 
 }
 
@@ -121,7 +121,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100%;
 }
 .features{
     height:90vh;
@@ -178,4 +177,21 @@ a{
     font-family: "Belanosima", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.chatbot{
+    position: sticky; 
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+    bottom: 100px;
+    height: 50px;
+    width: 99vw;
+}
+.bot{
+    height: 45px;
+    width: 45px;
+    margin: 10px;;
+    background-color: red;
+
 }
