@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/profile.css">
-    <title>MedHarmony-Profile</title>
+    <title>MedHarmony_profile</title>
+<link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
-    <header>
+      <header>
         <nav>
             <div class="logo">
-                <img src="medharmony-high-resolution-logo-transparent.png" alt="logo">
-
+                <img src="images/medharmony-high-resolution-logo-transparent.png" alt="logo">
             </div>
             <ul>
-                <li><a href="login.html">LogIn</a></li>
-
+                <li> <a href="login.html">LogIn</a> </li>
             </ul>
-
         </nav>
-    </header>
-    <!-- <main>
+    </header> 
+    <main>
         <div class="container">
             <h2>Profile</h2>
-            <form id="interaction_box">
-                <label for="drug name">Enter the name of medicine</label>
-                <input type="text" id="Interaction_box" name="drug" required placeholder="Enter drugs name...">
-            </form>
+            <label for="drug name">Update your profile for better interaction outputs</label>
+            <div class="boxes">
+                <div id="interaction_box1">
+                <input type="text" id="Interaction_box1" name="name" required placeholder="Enter name">
             </div>
- 
-    </main> -->
-
+            <div id="interaction_box2">
+                <input type="number" id="Interaction_box2" name="age" required placeholder="Enter age">
+            </div>
+            <div id="interaction_box3">
+                <input type="text" id="interaction_box3" name="gender" required placeholder="Enter gender">
+            </div>
+            <div id="interaction_box4">
+                <input type="text" id="interaction_box4" name="location" required placeholder="Enter location">
+            </div>
+            <div id="interaction_box5">
+                <input type="text" id="interaction_box5" name="prior_health_condition" required placeholder="Enter prior health condition">
+            </div>
+        </div>
+        <div class="btn">
+        <button type="submit">Save</button>
+    </div>
+        </div>
+    </main>
     <footer class="flex-all-center">
         <p>Copyright &copy; MedHarmony All rights reserved. </p>
-    </footer>
+    </footer> 
 </body>
 </html>
+    

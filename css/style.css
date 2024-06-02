@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
 :root {
-    --main-bg-color: rgb(44, 118, 236);
+    --main-bg-color: rgb(70, 206, 195);
 }
 body{
    background-color:rgb(201, 246, 242);
@@ -85,8 +85,7 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
-    max-width: 585px;
-    height: 100px;
+    
 
 }
 
@@ -97,15 +96,26 @@ nav ul li a:hover {
     font-style: normal;
     font-size: 35px;
 }
-#interaction_box label{
-    font-size:20px ;
-    display: block;
+#interaction_box1 label{
+    font-size:22px ;
+    display: flex;
 }
+#interaction_box2 label{
+    font-size:20px ;
+    display: flex;
+}
+.boxe{
 
+    display: grid;
+    grid-template-rows: 2;
+}
 input{
-    padding: 6px;
-    margin: 9px;
-    width: 400px;
+    padding: 9px;
+    margin: 8px;
+    width: 230px;
+}
+label{
+    font-size: 20px;
 }
 
 footer {
@@ -189,14 +199,14 @@ a{
     width: 99vw;
 }
 .bot{
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     margin: 10px;
 }
 
 .bot_img{
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 
@@ -206,11 +216,39 @@ a{
      border: 2px solid lawngreen;
 }
 
-h6{
+h4{
     font-family: "Belanosima", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: blueviolet;
 }
+.know_more{
+    display:block;
+    width: 70%;
+}
+.question1 h2{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 15px;
+}
+.question1 p{
+    font-size: 19px;
+    margin-left: 17px;
+}
+.question2 h2{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 15px;
+}
+.question2 p{
+    font-size: 19px;
+    margin-left: 17px;
+}
+ .question2 p a{
+    color: var(--main-bg-color);
+ }
+
 
 
